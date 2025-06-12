@@ -1,0 +1,48 @@
+ .line{
+           background-color: chocolate;
+      }
+      #new{
+        font-family:cursive;
+      }
+      h1{
+        background-color: brown;
+      }
+
+      .parent p{
+        color: blue;
+      }
+
+      .border{
+        border: 2px solid black;
+        padding: 10px;
+        border-radius: 20px;
+        border-style:groove;
+      }
+      .margin1{
+        border: 3px solid blue;
+        padding:10px;
+      }
+       .margin{
+        border: 3px solid black;
+        padding:10px;
+      }
+      .static{
+        position:static;
+      }
+      .relative{
+        position:relative;
+        top:30px;
+        left:60px;
+      }
+      .page{
+        height:100vh;
+      }
+      .fixed{
+        position:fixed;
+        left:80px;
+      }
+      .sticky{
+        position:sticky;
+        top:0;
+        
+      }
