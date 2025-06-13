@@ -46,3 +46,94 @@
         top:0;
         
       }
+      .inline{
+        display: inline;
+      }
+      .flex-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: aqua;
+        height:100vh;
+      }
+        .flex-container div{
+        background-color: peachpuff;
+        border: 2px solid brown;
+        height: 100px;
+        width:100px;
+        }
+        .item2{
+          flex-shrink:0;
+        }
+   .navbar{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    background-color: aqua;
+    border-radius: 20px;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+         }
+         .container{
+          display:flex;
+          gap: 30px;
+          
+         }
+         .grid-container{
+          display: grid;
+          grid-template-rows: 100px 100px 100px;
+          grid-template-columns: 100px 100px 100px 100px;
+          
+         }
+         /* .grid-container div{
+          background-color: blueviolet;
+          border: 2px solid purple;
+          
+         } */
+         .new1{
+          background-color: rgb(241, 117, 28);
+          border:2px solid black;
+          grid-column-start: 1;
+          grid-column-end: 5;
+               text-align: center;
+               align-content: center;
+         }
+         .new2{
+          grid-column-start: 1;
+          grid-column-end: 3;
+          background-color: rgb(24, 196, 226);
+          border: 2px solid black;
+           text-align: center;
+               align-content: center;
+
+         }
+         .new3{
+            grid-column-start: 4;
+            background-color: rgb(226, 38, 38);
+            border: 2px solid black;
+             text-align: center;
+               align-content: center;
+         }
+         .new4{
+              grid-column-start: 1;
+              grid-column-end:5;
+              background-color: rgb(7, 189, 98);
+              border: 2px solid black;
+               text-align: center;
+               align-content: center;
+         }
+
+ @media (max-width:780px){
+
+   .navbar{
+     display:flex;
+     flex-direction: column;
+   
+  }
+  .container{
+     display:flex;
+     flex-direction: column;
+  }
+ }
